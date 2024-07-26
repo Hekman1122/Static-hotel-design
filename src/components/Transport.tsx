@@ -3,7 +3,7 @@ import { FaCar, FaCarSide, FaTrainSubway } from "react-icons/fa6";
 
 export default function TransportComponent() {
   return (
-    <section className="bg-black pt-20 px-6 lg:ox-0">
+    <section className="bg-black pt-20 px-6 lg:ox-0 mt-16 w-full">
       <div className="w-full lg:max-w-5xl m-auto ">
         <div className="text-3xl gap-8 text-[#c4a382] flex items-center mb-10">
           <h2>

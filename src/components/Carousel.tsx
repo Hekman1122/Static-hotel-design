@@ -10,7 +10,7 @@ type ImageProp = {
 export default function CarouselComponent({ images }: ImageProp) {
   const [number, setNumber] = useState<number>(0);
   return (
-    <div className="overflow-hidden relative w-full h-full">
+    <div className="overflow-hidden relative w-full h-full ">
       <Button
         onClick={() =>
           setNumber((pre) => {

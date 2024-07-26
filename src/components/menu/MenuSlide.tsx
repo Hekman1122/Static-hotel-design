@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/carousel";
 export default async function MenuSlideComponent() {
   return (
-    <section className="bg-[#fffbf6] h-screen relative pt-20 px-12 lg:px-0">
+    <section className="bg-[#fffbf6] h-screen relative py-16 px-12 lg:px-0">
       <Image
         src="https://github.com/hexschool/2022-web-layout-training/blob/main/typescript-hotel/%E6%A1%8C%E6%A9%9F%E7%89%88/line.png?raw=true"
         width={200}
